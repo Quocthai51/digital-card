@@ -11,8 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
-  
-  
 }
 
 .Main--Card {
@@ -50,7 +48,7 @@ body {
   color: #f3bf99;
   align-self: center;
   display: block;
-  margin-block-start: 0.2em;
+  margin-block-start: 0.085em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -63,12 +61,13 @@ body {
   align-self: center;
   display: block;
   font-size: 10.24px;
-  margin-block-start: 0.2em;
+  margin-block-start: 0.45em;
   margin-block-end: 0.67em;
 }
 
 .ButtonGroup {
   display: flex;
+  padding-top: 9px;
   justify-content: center;
   align-items: center;
   align-content: space-around;
@@ -84,7 +83,6 @@ body {
   padding: 9px 13px 9px 11px;
   width: 110px;
   height: 34px;
-  
 }
 
 .ButtonGroup .linkedin-btn {
@@ -95,6 +93,95 @@ body {
 
 /* About */
 
-/* Interests */
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-inline-start: 40px;
+  max-width: 240px;
+  flex-wrap: wrap;
+}
 
+.About > h1 {
+  color: white;
+  align-self: flex-start;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.About > p {
+  color: white;
+  align-self: center;
+  display: block;
+  margin-block-start: 0.2em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+/* Interests */
+.Interests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-inline-start: 40px;
+  max-width: 240px;
+  flex-wrap: wrap;
+}
+
+.Interests > h1 {
+  color: white;
+  align-self: flex-start;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.Interests > p {
+  color: white;
+  align-self: center;
+  display: block;
+  margin-block-start: 0.2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
 /* Footer */
+
+.Footer {
+  display: flex;
+  gap: 0px 18px;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+  background: #161619;
+  width: 317px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.Footer > .iconFooter {
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  color: #918e9b;
+}
